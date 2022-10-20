@@ -15,5 +15,5 @@ function calculate() {
   const totalPay = hours * rate
   // output
   document.getElementById("totalPay").innerHTML =
-    "Your pay will be: $ " + hours + " "
+    "Your pay will be: $" + totalPay + " "
 }
