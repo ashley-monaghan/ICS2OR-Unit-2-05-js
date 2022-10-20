@@ -11,9 +11,17 @@ function calculate() {
   // input
   const hours = parseInt(document.getElementById("number-of-hours").value)
   const rate = parseInt(document.getElementById("hourly-rate").value)
+
   // process
   const totalPay = hours * rate
+  const taxDeductions = (hours * rate) * 0.18
+
+
   // output
   document.getElementById("totalPay").innerHTML =
     "Your pay will be: $" + totalPay + " "
+
+    // output
+  document.getElementById("totalPay").innerHTML =
+  "Your pay will be: $" + taxDeductions + " "
 }
