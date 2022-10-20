@@ -20,7 +20,7 @@ function calculate() {
   document.getElementById("totalPay").innerHTML =
     "Your pay will be: $" + totalPay + " "
 
-    // output
+  // output
   document.getElementById("taxDeductions").innerHTML =
-  "Your pay will be: $" + taxDeductions + " "
+    "Your pay will be: $" + taxDeductions + " "
 }
