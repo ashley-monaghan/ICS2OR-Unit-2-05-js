@@ -14,14 +14,13 @@ function calculate() {
 
   // process
   const totalPay = hours * rate
-  const taxDeductions = (hours * rate) * 0.18
-
+  const taxDeductions = hours * rate * 0.18
 
   // output
   document.getElementById("totalPay").innerHTML =
     "Your pay will be: $" + totalPay + " "
 
-    // output
+  // output
   document.getElementById("totalPay").innerHTML =
-  "Your pay will be: $" + taxDeductions + " "
+    "Your pay will be: $" + taxDeductions + " "
 }
