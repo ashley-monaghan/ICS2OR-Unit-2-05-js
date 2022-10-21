@@ -19,7 +19,7 @@ function calculate() {
   // output
   document.getElementById(
     "pay"
-  ).innerHTML = `Your total pay will be: $ ${totalPay.toFixed(2)}`
+  ).innerHTML = "Your total pay will be: $" + pay.toFixed(2)}
 
   // output
   document.getElementById("pay").innerHTML =
