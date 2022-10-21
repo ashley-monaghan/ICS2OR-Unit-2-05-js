@@ -14,8 +14,8 @@ function calculate() {
   const rate = parseFloat(document.getElementById("hourly-rate").value)
 
   // process
-  const totalPay = hours * rate * (1 - 0.18)
-  const taxDeductions = hours * rate * 0.18
+  const pay = hours * rate * (1 - 0.18)
+  const tax = hours * rate * 0.18
 
   // output
   document.getElementById("pay").innerHTML =
