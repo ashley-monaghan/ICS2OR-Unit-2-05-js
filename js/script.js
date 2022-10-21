@@ -13,8 +13,8 @@ function calculate() {
   const rate = parseInt(document.getElementById("hourly-rate").value)
 
   // process
-  const totalPay = (hours * rate)
-  const taxDeductions = (hours * rate) * Math.PI
+  const totalPay = hours * rate
+  const taxDeductions = hours * rate * Math.PI
 
   // output
   document.getElementById(
