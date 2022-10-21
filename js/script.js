@@ -17,10 +17,11 @@ function calculate() {
   const taxDeductions = hours * rate * Math.PI
 
   // output
-  document.getElementById('pay').innerHTML = `Your total pay will be: $ ${totalPay.toFixed(2)}`
+  document.getElementById(
+    "pay"
+  ).innerHTML = `Your total pay will be: $ ${totalPay.toFixed(2)}`
 
   // output
-  document.getElementById('pay').innerHTML = 'Your deducted pay will be: $' + taxDeductions.toFixed(2)
-
-
+  document.getElementById("pay").innerHTML =
+    "Your deducted pay will be: $" + taxDeductions.toFixed(2)
 }
