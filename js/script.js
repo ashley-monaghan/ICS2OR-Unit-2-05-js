@@ -10,7 +10,7 @@
  */
 function calculate() {
   const TAX_RATE = 0.18
-  
+
   // input
   const hours = parseFloat(document.getElementById("number-of-hours").value)
   const rate = parseFloat(document.getElementById("hourly-rate").value)
