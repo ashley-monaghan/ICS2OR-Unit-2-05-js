@@ -9,13 +9,15 @@
  * This function calculates you total salary and deducted.
  */
 function calculate() {
+  const TAX_RATE = 0.18
+  
   // input
   const hours = parseFloat(document.getElementById("number-of-hours").value)
   const rate = parseFloat(document.getElementById("hourly-rate").value)
 
   // process
-  const pay = hours * rate * (1 - 0.18)
-  const tax = hours * rate * 0.18
+  const pay = hours * rate * (1 - TAX_RATE)
+  const tax = hours * rate * TAX_RATE
 
   // output
   document.getElementById("pay").innerHTML =
